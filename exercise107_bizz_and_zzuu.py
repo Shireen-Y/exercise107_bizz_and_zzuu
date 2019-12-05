@@ -6,8 +6,6 @@
     # if a multiple of 5 it return zzuu
     # if a multiple of 3 and 5 it return bizzzzuu
 
-
-
 # Learn about how to define a function
 # remember what is DRY?
 # what is separation of concerns?
@@ -20,7 +18,6 @@
     # it should have simple instructions on how to run the project
 # it should have git and git history
 # it should be on git hub
-
 
 
 
