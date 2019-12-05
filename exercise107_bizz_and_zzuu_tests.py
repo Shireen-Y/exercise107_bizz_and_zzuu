@@ -1,40 +1,36 @@
 # Tests go here
-
-# Make test for welcome_message
-print('Welcome to the BIZZUU Game')
-
-
+from exercise107_bizz_and_zzuu_functions import *
 
 # Make test for multiple_3
-print("testing multiple_3 with 6. Expected --> 'Bizz'")
-print(multiple_3(6) == 'Bizz Number')
-print("got:", multiple_3(6))
+print("testing chosen_number. Expected --> 'Bizz'")
+print(chosen_number(num) == 'Bizz Number')
+print("got:", chosen_number(num))
 
     # Test 2 for numbers that don't divide by 3 - output 'Try Again'
-print("testing multiple_3 with the number 7. expected --> 'Try Again'")
-print(multiple_3(7) == 'Try Again')
-print("got:", multiple_3(7))
+print("testing chosen_number. expected --> 'Try Again'")
+print(chosen_number(num) == 'Try Again')
+print("got:", chosen_number(num))
 
 
 # Make test for multiple_5
-print("testing with multiple_5 with 10. Expected --> 'Zzuu")
-print(multiple_5(10) == 'Bizz Number')
-print("got:", multiple_5(10))
+print("testing with chosen_number. Expected --> 'Zzuu")
+print(chosen_number(num) == 'Bizz Number')
+print("got:", chosen_number(num))
 
     # Test 2 for numbers that don't divide by 5 - output 'Try Again'
-print("testing multiple_5 with the number 11. expected --> 'Try Again'")
-print(multiple_5(11) == 'Try Again')
-print("got:", multiple_5(11))
+print("testing chosen_number. expected --> 'Try Again'")
+print(chosen_number(num) == 'Try Again')
+print("got:", chosen_number(num))
 
 
 # Make test for multiple_3_and_5
-print("testing with multiple_3_and_5 with 15. Expected --> 'BIZZUUU'")
-print(multiple_3_and_5(15) == 'Bizz Number')
-print("got:", multiple_3_and_5(15))
+print("testing with chosen_number. Expected --> 'BIZZUUU'")
+print(chosen_number(num) == 'Bizz Number')
+print("got:", chosen_number(num))
 
     # Test 2 for numbers that don't divide by 3 and 5 - output 'Try Again'
-print("testing multiple_3_and_5 with the number 17. expected --> 'Try Again'")
-print(multiple_3_and_5(17) == 'Try Again')
-print("got:", multiple_3_and_5(17))
+print("testing chosen_number. expected --> 'Try Again'")
+print(chosen_number(num) == 'Try Again')
+print("got:", chosen_number(num))
 
 
