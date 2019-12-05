@@ -1,12 +1,24 @@
 # Functions go here
 
+print('Welcome to the BIZZUU Game')
+num = int(input('Please choose a number: '))
+
+def div_3(num):
+    return num % 3 == 0
+
+def div_5(num):
+    return num % 5 == 0
+
 def chosen_number(num):
-    if num % 5 == 0 and num % 3 == 0:
+    if div_5(num) and div_3(num):
         return 'BIZZUUU'
-    elif num % 3 == 0:
+    elif div_3(num):
         return 'This is a Bizz Number'
-    elif num % 5 == 0:
+    elif div_5(num):
         return 'This is a Zzuu Number'
     else:
         return 'Try again'
-print(chosen_number(num))
+
+def run(num):
+    output = chosen_number(num)
+    return output
